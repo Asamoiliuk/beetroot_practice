@@ -1,0 +1,91 @@
+.page {
+    background-color: white;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+
+    &__header {
+        padding-top: 75px;
+        padding-bottom: 135px;
+        background:url(../images/header-bg.png) top center no-repeat,
+        #{$gradient-blue},
+        ;
+
+    }
+}
+
+.circle1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: $symu-btn-text-color;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+
+.header {
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    // .header__h1
+
+    &__h1 {
+        margin-bottom: 40px;
+    }
+
+    // .header__paragraph
+
+    &__paragraph {
+        font-size: 16px;
+        color: $symu-btn-text-color;
+        text-transform: uppercase;
+        line-height: 2.188;
+        text-align: center;
+        margin-bottom: 75px;
+    }
+
+    // .header__button
+
+    &__button {}
+}
+
+.h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    color: $symu-btn-text-color;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 700;
+}
+
+.white-button {
+    background-color: $symu-btn-text-color;
+    width: 204px;
+    border-radius: 27px;
+    font-size: 16px;
+    color: $hire-me-btn-text-color;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding: 11px 0 15px 0;
+    text-align: center;
+
+    &:link {
+        color: $hire-me-btn-text-color;
+    }
+
+    &:visited {
+        color: $hire-me-btn-text-color;
+    }
+}
