@@ -34,6 +34,8 @@
             max-width: $width;
             width: 100%;
             flex-basis: $width;
+            padding: $gap;
+            box-sizing: border-box;
         }
     }
 
