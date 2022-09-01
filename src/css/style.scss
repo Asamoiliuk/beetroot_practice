@@ -2,9 +2,10 @@
 @import './reset';
 @import './vars';
 @import './mixin';
-@include font('Lato', normal, 300, '../fonts/lato-v23-latin-300');
-@include font('Lato', normal, 400, '../fonts/lato-v23-latin-regular');
-@include font('Lato', normal, 700, '../fonts/lato-v23-latin-700');
+@include font($main-font, normal, 300, '../fonts/lato-v23-latin-300');
+@include font($main-font, normal, 400, '../fonts/lato-v23-latin-regular');
+@include font($main-font, normal, 700, '../fonts/lato-v23-latin-700');
 @include font('Montserrat', normal, 400, '../fonts/montserrat-v25-latin-regular');
 @include font('Montserrat', normal, 700, '../fonts/montserrat-v25-latin-700');
 @import './grid';
+@import './hire-me';
