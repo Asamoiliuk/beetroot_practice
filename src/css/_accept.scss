@@ -1,0 +1,63 @@
+.cookies {
+    background-color: $cookies-background-color;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__chekbox {
+        @include visuality-hidden;
+
+        &:checked+.cookies {
+            display: none;
+        }
+    }
+
+    // .cookies__text
+
+    &__text {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 36px;
+        color: $color-white;
+        font-weight: 400;
+        font-family: "Lato";
+        margin-right: 50px;
+
+    }
+
+    // .cookies__button
+
+    &__button {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        width: 112px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        background-color: $color-white;
+        font-size: 12px;
+        letter-spacing: 0px;
+        line-height: 16px;
+        color: $color-darkblue;
+        font-weight: 700;
+        font-family: "Lato";
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+.page {
+
+
+
+    &__cookies {}
+}

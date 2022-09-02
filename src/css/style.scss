@@ -8,7 +8,9 @@
 @include font('Montserrat', normal, 400, '../fonts/montserrat-v25-latin-regular');
 @include font('Montserrat', normal, 700, '../fonts/montserrat-v25-latin-700');
 @import './grid';
+@import './accept';
 @import './header';
 @import './menu';
 @import './hire-me';
+@import './about';
 @import './expert-in';
