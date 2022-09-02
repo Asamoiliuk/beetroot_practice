@@ -5,6 +5,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: 1000;
 
     &::before {
         content: '';
@@ -60,6 +61,8 @@
     &__input {
         margin-bottom: 15px;
         padding: 14px 20px;
+        font-weight: 400;
+        font-family: $default-font;
 
         &::-webkit-input-placeholder {
             font-size: 16px;
@@ -98,6 +101,10 @@
         padding: 7px 20px;
         margin-bottom: 45px;
         height: 165px;
+        font-size: 16px;
+        line-height: 35px;
+        font-weight: 400;
+        font-family: $default-font;
 
         &::-webkit-input-placeholder {
             font-size: 16px;

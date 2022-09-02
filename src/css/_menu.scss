@@ -15,33 +15,31 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 70px;
-    padding-top: 95px;
+    padding-top: 60px;
 
     &__link {
         width: 400px;
-        border-bottom: 1px solid $color-lightgray;
+        border-bottom: 1px solid $color-menu-items;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 80px;
+        padding-bottom: 55px;
     }
-
-    &__link-item {}
 
 
     &__link-href {
-        font-family: 'Lato', Arial, Helvetica, sans-serif;
-        font-size: 40px;
+        font-family: 'Lato' Arial, Helvetica, sans-serif;
+        font-size: 50px;
         font-weight: 300;
-        color: $color-lightgray;
+        color: $color-menu-items;
         line-height: 1.96;
 
         &:link {
-            color: $color-lightgray;
+            color: $color-menu-items;
         }
 
         &:visited {
-            color: $color-lightgray;
+            color: $color-menu-items;
         }
 
         &:hover {
@@ -59,7 +57,7 @@
     }
 
     &__sosial-item {
-        background-color: $color-lightgray;
+        background-color: $color-menu-items;
         width: 51px;
         height: 51px;
         border-radius: 50%;
@@ -70,7 +68,8 @@
         box-sizing: border-box;
 
         &:hover {
-            background-color: $color-blue-3;
+            background: #{$color-menu-items-hover};
+            background-color: none;
         }
     }
 
@@ -78,19 +77,4 @@
         padding: 8px;
         max-width: 100%;
     }
-}
-
-.About_Me_Services_My_Works_Clients {
-    font-size: 34px;
-    font-family: "Lato";
-    color: rgb(210, 210, 210);
-    line-height: 1.96;
-    text-align: center;
-    -moz-transform: matrix(1.46316721390091, 0, 0, 1.46316721390091, 0, 0);
-    -webkit-transform: matrix(1.46316721390091, 0, 0, 1.46316721390091, 0, 0);
-    -ms-transform: matrix(1.46316721390091, 0, 0, 1.46316721390091, 0, 0);
-    position: absolute;
-    left: 929.461px;
-    top: 278.006px;
-    z-index: 126;
 }
