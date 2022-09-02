@@ -1,0 +1,19 @@
+.footer {
+    background-color: $background-footer;
+
+    &__text {
+        display: inline-block;
+        color: $hire-me-btn-text-color;
+        margin: 0 auto;
+
+    }
+
+    &__btn {
+        color: $hire-me-btn-text-color;
+        background-color: $hire-me-btn-background;
+        width: 204px;
+        height: 55px;
+        border-radius: 28px;
+
+    }
+}
