@@ -1,0 +1,96 @@
+.popup-menu {
+    &__window {
+        position: relative;
+        max-width: 1170px;
+        background-color: $color-bg-form;
+        border-radius: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-top: 95px;
+
+    &__link {
+        width: 400px;
+        border-bottom: 1px solid $color-lightgray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+
+    &__link-item {}
+
+
+    &__link-href {
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: 300;
+        color: $color-lightgray;
+        line-height: 1.96;
+
+        &:link {
+            color: $color-lightgray;
+        }
+
+        &:visited {
+            color: $color-lightgray;
+        }
+
+        &:hover {
+            color: $color-blue-3;
+        }
+    }
+
+
+
+    &__sosial {
+        padding-top: 75px;
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__sosial-item {
+        background-color: $color-lightgray;
+        width: 51px;
+        height: 51px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        box-sizing: border-box;
+
+        &:hover {
+            background-color: $color-blue-3;
+        }
+    }
+
+    &__sosial-image {
+        padding: 8px;
+        max-width: 100%;
+    }
+}
+
+.About_Me_Services_My_Works_Clients {
+    font-size: 34px;
+    font-family: "Lato";
+    color: rgb(210, 210, 210);
+    line-height: 1.96;
+    text-align: center;
+    -moz-transform: matrix(1.46316721390091, 0, 0, 1.46316721390091, 0, 0);
+    -webkit-transform: matrix(1.46316721390091, 0, 0, 1.46316721390091, 0, 0);
+    -ms-transform: matrix(1.46316721390091, 0, 0, 1.46316721390091, 0, 0);
+    position: absolute;
+    left: 929.461px;
+    top: 278.006px;
+    z-index: 126;
+}
