@@ -1,0 +1,30 @@
+.work {
+
+    background: $gradient-blue;
+    padding: 90px;
+
+
+    &__text {
+        display: inline-block;
+        color: $footer-text-color;
+        margin: 0 auto;
+        font-size: 50px;
+        line-height: 65px;
+        font-weight: 300;
+        font-family: "Lato";
+
+    }
+
+    &__btn {
+        color: $hire-me-btn-text-color;
+        background-color: $hire-me-btn-background;
+        width: 204px;
+        height: 55px;
+        border-radius: 28px;
+        font-family: "Lato";
+        color: #3695ff;
+        font-weight: 700;
+
+
+    }
+}
