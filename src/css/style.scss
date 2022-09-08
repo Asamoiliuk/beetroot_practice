@@ -1,6 +1,6 @@
 @use "sass:math";
 @import './reset';
-@import './vars';
+@import './vars-new';
 @import './mixin';
 @include font($main-font, normal, 300, '../fonts/lato-v23-latin-300');
 @include font($main-font, normal, 400, '../fonts/lato-v23-latin-regular');
@@ -8,6 +8,7 @@
 @include font('Montserrat', normal, 400, '../fonts/montserrat-v25-latin-regular');
 @include font('Montserrat', normal, 700, '../fonts/montserrat-v25-latin-700');
 @import './grid';
+@import './global';
 @import './header';
 @import './menu';
 @import './hire-me';
