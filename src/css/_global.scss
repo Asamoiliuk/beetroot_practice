@@ -1,0 +1,49 @@
+.page {
+    background-color: $background-color-white;
+    //simple text in About Me and Expert-In sections
+    font-family: $default-font;
+    font-size: 16px;
+    line-height: 2.188;
+    color: $simple-text-color;
+}
+
+.headerOne {
+    font-size: 50px;
+    color: $h1-color;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 700;
+}
+
+.headerTwo {
+    font-size: 34px;
+    color: $h2-color;
+    background-image: #{$h2-gradient};
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+    text-align: center;
+}
+
+.hireMeButton {
+    background-color: $hire-me-btn-background;
+    color: $hire-me-btn-text-color;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 30px;
+    width: 204px;
+    border-radius: 27px;
+    padding: 11px 0 15px 0;
+    text-align: center;
+    cursor: pointer;
+
+    &:link {
+        color: $hire-me-btn-text-color;
+    }
+
+    &:visited {
+        color: $hire-me-btn-text-color;
+    }
+}

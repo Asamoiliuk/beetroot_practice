@@ -1,0 +1,103 @@
+.popup-menu {
+    &__window {
+        position: relative;
+        max-width: 1170px;
+        background-color: $color-bg-form;
+        border-radius: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 60px;
+
+    &__link {
+        width: 400px;
+        border-bottom: 1px solid $color-menu-items;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 55px;
+    }
+
+
+    &__link-href {
+        font-size: 50px;
+        font-weight: 300;
+        color: $color-menu-items;
+
+        line-height: 1.96;
+        text-decoration: none;
+
+        &:link {
+            color: $color-menu-items;
+        }
+
+        &:visited {
+            color: $color-menu-items;
+        }
+
+        &:hover {
+            color: $color-menu-items-hover;
+            background-image: #{$color-menu-items-hover-gradient};
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+
+
+    &__sosial {
+        padding-top: 75px;
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__sosial-item {
+        background-color: $color-menu-items;
+        width: 51px;
+        height: 51px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        box-sizing: border-box;
+
+        &:hover {
+            background: #{$color-social-items-hover};
+            background-color: none;
+        }
+    }
+
+    &__sosial-image {
+        padding: 8px;
+        max-width: 100%;
+    }
+
+}
+
+.language {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+    &__language {
+        color: $color-menu-items;
+        display: block;
+        text-decoration: none;
+        padding: 0 20px 20px 0;
+    }
+
+
+    &__language-img {
+        margin-left: 10px;
+    }
+}
