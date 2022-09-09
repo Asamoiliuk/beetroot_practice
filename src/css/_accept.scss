@@ -25,7 +25,7 @@
         line-height: 36px;
         color: $color-white;
         font-weight: 400;
-        font-family: "Lato";
+        font-family: $main-font;
         margin-right: 50px;
 
     }
@@ -42,16 +42,9 @@
         font-size: 12px;
         letter-spacing: 0px;
         line-height: 16px;
-        color: $color-darkblue;
+        color: $accept-btn-text-color;
         font-weight: 700;
-        font-family: "Lato";
+        font-family: $main-font;
         text-align: center;
     }
-}
-
-.page {
-
-
-
-    &__cookies {}
 }
