@@ -1,4 +1,4 @@
-.popup {
+.adwertising {
     position: relative;
 
     &::before {
@@ -13,7 +13,7 @@
     }
 
 
-    &__window {
+    &__thanks-popup {
         position: relative;
         max-width: 1186px;
         height: auto;
@@ -43,7 +43,7 @@
         }
 
         .thanks-popup {
-            &__title-level-3 {
+            &__title-level-3-tanks {
                 margin-bottom: 30px;
                 font-size: 48px;
                 color: $color-title-popup-thanks;
