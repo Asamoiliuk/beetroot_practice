@@ -1,26 +1,8 @@
-.title-level-2 {
-    font-size: 34px;
-    line-height: 35px;
-    color: $h2-color;
-    background-image: #{$h2-gradient};
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    line-height: 1;
-    font-weight: 300;
-    font-family: $main-font;
-    text-align: center;
+.headerTwo:first-child {
     padding: 97px;
     padding-bottom: 68px;
 }
 
 .simple_text {
-    background-color: $background-color-white;
-    width: 1096px;
-    height: 167px;
-    font-size: 16px;
-    line-height: 35px;
-    color: $color-black;
-    font-weight: 400;
-    font-family: $main-font;
     text-align: center;
 }
