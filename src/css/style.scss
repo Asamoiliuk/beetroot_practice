@@ -5,11 +5,14 @@
 @include font($main-font, normal, 300, '../fonts/lato-v23-latin-300');
 @include font($main-font, normal, 400, '../fonts/lato-v23-latin-regular');
 @include font($main-font, normal, 700, '../fonts/lato-v23-latin-700');
-@include font('Montserrat', normal, 400, '../fonts/montserrat-v25-latin-regular');
-@include font('Montserrat', normal, 700, '../fonts/montserrat-v25-latin-700');
+@include font($font-additional, normal, 400, '../fonts/montserrat-v25-latin-regular');
+@include font($font-additional, normal, 700, '../fonts/montserrat-v25-latin-700');
 @import './grid';
 @import './global';
 @import './header';
+@import './accept';
+@import './about';
 @import './menu';
 @import './hire-me';
+@import './thanks_for';
 @import './expert-in';

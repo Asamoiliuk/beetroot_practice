@@ -17,8 +17,9 @@
 }
 
 .headerTwo {
-    font-size: 34px;
+    font-size: 50px;
     color: $h2-color;
+    font-weight: 300;
     background-image: #{$h2-gradient};
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
