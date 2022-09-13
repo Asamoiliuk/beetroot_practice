@@ -1,7 +1,7 @@
 .popup-menu {
     &__window {
-        position: relative;
-        max-width: 1170px;
+        position: fixed;
+        width: 1170px;
         background-color: $color-bg-form;
         border-radius: 10px;
         top: 50%;
