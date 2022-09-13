@@ -12,6 +12,7 @@ $break-points: (
 $color-white: #fff;
 $color-lightblue: #f1f8ff;
 $color-lightgray: #b7c0c9;
+$color-lightgray-1: #f4f4f4;
 $color-darkblue: #194277;
 $color-red: #eb304d;
 $color-red-2: #b9bcd1;
@@ -27,6 +28,7 @@ $background-color-lightblue: $color-lightblue;
 $background-color-white: $color-white;
 $background-header: $gradient-blue;
 $background-footer: $gradient-blue;
+$background-box-latest: $color-lightgray-1;
 
 $symu-btn-background: $color-red;
 $symu-btn-text-color: $color-white;
